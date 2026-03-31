@@ -43,24 +43,4 @@ public class Produto {
         }
         return false;
     }
-
-    // Getters (opcional, mas útil)
-    public String getNome() {
-        return nome;
-    }
-
-    public double getPreco() {
-        return preco;
-    }
-
-    public int getQuantidade() {
-        return quantidade;
-    }
-
-    // Setters (opcional)
-    public void setPreco(double preco) {
-        if (preco > 0) {
-            this.preco = preco;
-        }
-    }
 }
