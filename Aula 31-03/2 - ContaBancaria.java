@@ -45,9 +45,4 @@ public class ContaBancaria {
     public double consultarSaldo() {
         return saldo;
     }
-
-    // (Opcional) Getter do titular
-    public String getTitular() {
-        return titular;
-    }
 }
