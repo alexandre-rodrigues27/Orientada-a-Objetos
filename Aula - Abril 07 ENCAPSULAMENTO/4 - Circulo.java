@@ -5,7 +5,7 @@ public class Circulo {
 	private double raio;
 	
 	public Circulo (double raio) {
-		this.raio = raio;
+		setRaio(raio);
 	}
 	
 	public double getRaio() {
