@@ -1,4 +1,4 @@
-package pkg3;
+package pkg;
 
 public class Triangulo {
     private double ladoA;
