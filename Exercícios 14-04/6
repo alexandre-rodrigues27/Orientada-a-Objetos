@@ -1,0 +1,11 @@
+6) Descreva o que acontece quando se tenta acessar um atributo privado diretamente fora da classe. Como é possível acessá-lo de forma correta?
+
+Quando você tenta acessar um atributo private fora da classe, o Java não permite o acesso e gera um erro de compilação.
+Isso acontece porque o private restringe o acesso somente à própria classe.
+
+Se deve usar métodos públicos (getters e setters) para acessar ou modificar o atributo.
+
+private → acesso direto proibido fora da classe
+Tentar acessar → erro de compilação
+Solução → usar getters e setters (métodos públicos)
+Isso garante mais segurança e controle sobre os dados (encapsulamento).
