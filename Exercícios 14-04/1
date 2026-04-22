@@ -1,0 +1,56 @@
+a) Classe
+
+Uma classe é como um molde que define como um objeto será.
+Ela descreve quais características (atributos) e comportamentos (métodos) aquele objeto terá.
+
+class Carro {
+    String cor;
+    int velocidade;
+
+    void acelerar() {
+        velocidade += 10;
+    }
+}
+
+
+b) Objeto
+
+Um objeto é uma instância de uma classe, ou seja, é algo criado a partir do molde da classe.
+É o que realmente existe na prática.
+
+Carro meuCarro = new Carro();
+
+
+c) Atributo
+
+Um atributo é uma variável dentro da classe, que representa as características do objeto.
+
+String cor;
+int velocidade;
+
+
+d) Método
+
+Um método é uma função dentro da classe, que define o que o objeto pode fazer (seu comportamento).
+
+void acelerar() {
+    velocidade += 10;
+}
+
+
+e) Encapsulamento
+
+O encapsulamento é o conceito de proteger os dados de um objeto, controlando o acesso a eles.
+Isso é feito usando modificadores como private, public, etc.
+
+class Carro {
+    private int velocidade;
+
+    public void setVelocidade(int v) {
+        velocidade = v;
+    }
+
+    public int getVelocidade() {
+        return velocidade;
+    }
+}
