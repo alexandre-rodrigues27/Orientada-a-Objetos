@@ -1,0 +1,36 @@
+2) Qual a diferença entre método e construtor em uma classe? Dê um exemplo.
+
+A diferença principal entre método e construtor em Java está na finalidade e no momento em que são executados:
+
+Construtor
+Serve para inicializar o objeto quando ele é criado
+É chamado automaticamente ao usar new
+Tem o mesmo nome da classe
+Não possui tipo de retorno (nem void)
+
+Método
+Define ações/comportamentos do objeto
+É chamado manualmente quando necessário
+Pode ter qualquer nome
+Possui tipo de retorno (ou void)
+
+Exemplo: 
+
+class Pessoa {
+    String nome;
+    int idade;
+
+    // Construtor
+    Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    // Método
+    void apresentar() {
+        System.out.println("Olá, meu nome é " + nome + " e tenho " + idade + " anos.");
+    }
+}
+
+Pessoa p1 = new Pessoa("Alexandre", 20); // chama o construtor
+p1.apresentar(); // chama o método
