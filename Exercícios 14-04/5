@@ -1,0 +1,37 @@
+5) Explique o que é e para que serve o método toString() em uma classe.
+
+O método toString() em Java é usado para retornar uma representação em texto de um objeto.
+
+É um método que já existe na classe base Object (todas as classes herdam dele)
+Pode ser sobrescrito (override) para mostrar informações úteis do objeto
+
+Serve para facilitar a visualização dos dados do objeto
+Muito usado em:
+System.out.println(objeto)
+Logs
+Debug
+
+Se você não sobrescrever, o Java mostra algo padrão (pouco útil), como:
+
+class Pessoa {
+    String nome;
+    int idade;
+
+    Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    @Override
+    public String toString() {
+        return "Nome: " + nome + ", Idade: " + idade;
+    }
+}
+
+Pessoa p1 = new Pessoa("Alexandre", 20);
+System.out.println(p1);
+
+toString() → transforma o objeto em texto
+Serve para exibir informações de forma legível
+Sem sobrescrever → saída confusa
+Com sobrescrita → saída personalizada
