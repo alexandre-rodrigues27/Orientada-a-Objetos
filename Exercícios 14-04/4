@@ -1,0 +1,26 @@
+4) Qual a diferença entre os tipos de dados String, int e boolean? Dê um exemplo de uso de cada um.
+
+A diferença entre String, int e boolean em Java está no tipo de dado que cada um armazena:
+
+String
+Armazena texto (sequência de caracteres)
+Usado para nomes, frases, mensagens, etc.
+
+String nome = "Alexandre";
+System.out.println("Nome: " + nome);
+
+
+int
+Armazena números inteiros (sem casas decimais)
+Usado para idade, quantidade, contagem, etc.
+
+int idade = 20;
+System.out.println("Idade: " + idade);
+
+
+boolean
+Armazena apenas dois valores: true ou false
+Usado para condições (verdadeiro ou falso)
+
+boolean maiorDeIdade = true;
+System.out.println("É maior de idade? " + maiorDeIdade);
