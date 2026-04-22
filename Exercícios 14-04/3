@@ -1,0 +1,31 @@
+3) O que são modificadores de acesso em Java? Cite e explique brevemente os principais.
+
+Os modificadores de acesso em Java são palavras-chave usadas para controlar quem pode acessar classes, atributos e métodos. Eles ajudam a aplicar o encapsulamento, protegendo os dados e organizando melhor o código.
+
+1) public
+Pode ser acessado de qualquer lugar (qualquer classe, pacote ou projeto)
+
+public int idade;
+
+
+2) private
+Só pode ser acessado dentro da própria classe
+É o mais restritivo (mais seguro)
+
+private String nome;
+
+
+3) protected
+Pode ser acessado:
+Dentro da mesma classe
+No mesmo pacote
+Em subclasses (mesmo que estejam em outro pacote)
+
+protected double salario;
+
+
+4) Default (sem modificador)
+Também chamado de package-private
+Pode ser acessado apenas dentro do mesmo pacote
+
+int quantidade;
