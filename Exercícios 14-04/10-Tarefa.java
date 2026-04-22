@@ -11,6 +11,5 @@ class Tarefa {
     void exibirTarefa() {
         System.out.println("Descrição: " + descricao);
         System.out.println("Status: " + (concluida ? "Concluída" : "Pendente"));
-        System.out.println("----------------------");
     }
 }
